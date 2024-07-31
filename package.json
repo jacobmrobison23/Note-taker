@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "db": "^6.0.3",
     "express": "^4.19.2",
     "js": "^0.1.0",

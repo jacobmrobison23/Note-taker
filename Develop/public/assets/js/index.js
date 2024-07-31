@@ -109,7 +109,7 @@ const handleNoteView = (e) => {
 };
 
 // Sets the activeNote to and empty object and allows the user to enter a new note
-const handleNewNoteView = (e) => {
+const handleNewNoteView = (ee) => {
   activeNote = {};
   show(clearBtn);
   renderActiveNote();
@@ -184,11 +184,7 @@ const renderNoteList = async (notes) => {
 // Gets notes from the db and renders them to the sidebar
 const getAndRenderNotes = () => getNotes().then(renderNoteList);
 
-if (window.location.pathname === '/notes') {
-  saveNoteBtn.addEventListener('click', handleNoteSave);
-  newNoteBtn.addEventListener('click', handleNewNoteView);
-  clearBtn.addEventListener('click', renderActiveNote);
-  noteForm.addEventListener('input', handleRenderBtns);
-}
+tn.addEventListener('click', handleNoteSave); newNoteBtn.addEventListener('click', handleNewNoteView); clearBtn.addEventListener('click', renderActiveNote);
+  noForm.addEventListener('input', handleRenderBtns);
 
 getAndRenderNotes();
