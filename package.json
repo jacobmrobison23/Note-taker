@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "db": "^6.0.3",
+    "express": "^4.19.2",
+    "js": "^0.1.0",
+    "json-server": "^1.0.0-beta.1",
+    "uuid": "^10.0.0"
+  }
+}
