@@ -19,5 +19,7 @@
   Name: Jacob Robison
   Email: 
     GitHub: jacobmrobison23
+    
+##screenshot of application
+  ![Note Taker - Google Chrome 7_30_2024 8_27_57 PM](https://github.com/user-attachments/assets/08858b97-c927-49c3-a416-11f0e71c684c)
 
-  
